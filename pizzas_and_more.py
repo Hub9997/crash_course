@@ -7,6 +7,9 @@ print("Lubię wszystkie ciemno zielone warzywa")
 my_list = ['auto1','auto2','auto3','dom1','dom2','dom3']
 print('Pierwsze trzy rzeczy:')
 print(my_list[0:3])
+autos = [auto for auto in my_list]
+print(autos)
+
 
 print("Srodkowe:")
 print(my_list[1:5])
@@ -74,3 +77,12 @@ del guests[0]
 print(guests)
 del guests[0]
 print(guests)
+
+restaurant_foods = ('jajecznica','schabowy','bigos','chlodnik','nalesniki')
+for i in restaurant_foods:
+    print(i)
+
+restaurant_foods = ('jajecznica','schabowy','bigos','chlodnik','zielenina')
+print(restaurant_foods)
+
+
