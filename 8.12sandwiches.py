@@ -18,7 +18,7 @@ def build_profile(first, last, **rozne):
     return profil
 
 
-print(build_profile('Hubcio', 'Kulczyx', zawod='informatyk', dodatkowo='uzdrowiciel'))
+print(build_profile('Hubcio', 'Kulczyn', zawod='informatyk', dodatkowo='masazysta'))
 #build_profile(user_prifil)
 
 def make_car(marka,model,**other):
